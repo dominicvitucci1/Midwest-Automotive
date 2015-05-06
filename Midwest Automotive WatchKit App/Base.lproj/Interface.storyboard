@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Midwest_Automotive_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="6W3-7m-PUC">
+                            <items>
+                                <label alignment="left" text="Midwest Automotive" textAlignment="center" minimumScaleFactor="0.80000000000000004" id="xSy-jM-QfT">
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                                <imageView width="55" height="55" alignment="center" verticalAlignment="center" image="196x196.png" id="aEt-P0-T9H"/>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Find Us" id="EgH-PS-REs">
+                            <connections>
+                                <segue destination="TVG-mo-eRR" kind="push" id="XmR-GH-Yxx"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Hours" id="Ufq-ef-Mon">
+                            <connections>
+                                <segue destination="Hwh-nW-hMH" kind="push" id="9ep-yc-hbk"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="245" y="324.75"/>
+        </scene>
+        <!--Map Interface Controller-->
+        <scene sceneID="OGp-gZ-ALl">
+            <objects>
+                <controller id="TVG-mo-eRR" customClass="MapInterfaceController" customModule="Midwest_Automotive_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" text="Our Shop" id="XOZ-Ae-zVy"/>
+                        <map width="150" height="150" alignment="center" verticalAlignment="center" id="yHM-rZ-Liq"/>
+                    </items>
+                    <connections>
+                        <outlet property="mapView" destination="yHM-rZ-Liq" id="pa4-OW-Dlg"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="502" y="324"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="jUD-bv-dAn">
+            <objects>
+                <controller id="Hwh-nW-hMH">
+                    <items>
+                        <label alignment="center" text="Hours" id="R7z-D1-EY2">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <separator alignment="left" id="mOx-8s-eVO"/>
+                        <label alignment="center" verticalAlignment="center" textAlignment="center" numberOfLines="0" id="fNK-8F-RD9">
+                            <string key="text">Monday - Friday: 8am - 6pm
+
+Saturday: 8am - 3pm</string>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="448" y="617"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="tXr-wx-8aK">
+            <objects>
+                <glanceController topTemplateType="groupLeftLarge" id="0Ys-Rd-kcO" customClass="GlanceInterfaceController" customModule="Midwest_Automotive_WatchKit_Extension">
+                    <items>
+                        <group alignment="left" backgroundImage="196x196.png" id="iFR-b3-GA4"/>
+                        <label alignment="left" text="Midwest" id="lrM-wi-ctB"/>
+                        <label alignment="left" text="Shop" id="gMn-Lg-SKJ"/>
+                        <label alignment="left" text="Status" id="hPz-iv-3Rd"/>
+                        <group alignment="left" layout="vertical" id="aPG-Fc-cRL">
+                            <items>
+                                <imageView width="100" height="100" alignment="center" verticalAlignment="center" id="cAi-XM-Jqd"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="statusImage" destination="cAi-XM-Jqd" id="v1U-cp-wZi"/>
+                    </connections>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="448" y="843"/>
+        </scene>
+    </scenes>
+</document>

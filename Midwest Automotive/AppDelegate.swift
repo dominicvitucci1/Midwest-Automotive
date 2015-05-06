@@ -8,6 +8,8 @@
 
 import UIKit
 import CoreData
+import Parse
+import Bolts
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,8 +18,94 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //Setup Parse Analytics
+        Parse.setApplicationId("4kZDApzyUtRiDlndvfw1WjyYpf1Mu0O3K6A3n9sJ",
+            clientKey: "hv4ZuMX0fCWqAz49fRXMc9eNPsmD8KIQkuED9lCf")
+        
+        //PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+        
+        // Register for Push Notitications
+        if application.applicationState != UIApplicationState.Background {
+            // Track an app open here if we launch with a push, unless
+            // "content_available" was used to trigger a background push (introduced in iOS 7).
+            // In that case, we skip tracking here to avoid double counting the app-open.
+            
+            let preBackgroundPush = !application.respondsToSelector("backgroundRefreshStatus")
+            let oldPushHandlerOnly = !self.respondsToSelector("application:didReceiveRemoteNotification:fetchCompletionHandler:")
+            var pushPayload = false
+            if let options = launchOptions {
+                pushPayload = options[UIApplicationLaunchOptionsRemoteNotificationKey] != nil
+            }
+            if (preBackgroundPush || oldPushHandlerOnly || pushPayload) {
+                PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+            }
+        }
+        if application.respondsToSelector("registerUserNotificationSettings:") {
+            let userNotificationTypes = UIUserNotificationType.Alert | UIUserNotificationType.Badge | UIUserNotificationType.Sound
+            let settings = UIUserNotificationSettings(forTypes: userNotificationTypes, categories: nil)
+            application.registerUserNotificationSettings(settings)
+            application.registerForRemoteNotifications()
+        } else {
+            let types = UIRemoteNotificationType.Badge | UIRemoteNotificationType.Alert | UIRemoteNotificationType.Sound
+            application.registerForRemoteNotificationTypes(types)
+        }
+        
+        
         return true
+    }
+    
+    func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData) {
+        let installation = PFInstallation.currentInstallation()
+        installation.setDeviceTokenFromData(deviceToken)
+        installation.saveInBackground()
+    }
+    
+    func application(application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: NSError) {
+        if error.code == 3010 {
+            println("Push notifications are not supported in the iOS Simulator.")
+        } else {
+            println("application:didFailToRegisterForRemoteNotificationsWithError: %@", error)
+        }
+    }
+    
+    
+    func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject: AnyObject]) {
+        PFPush.handlePush(userInfo)
+        
+        var notification: NSDictionary = userInfo ["aps"] as! NSDictionary
+        var pushAlert: UIAlertView = UIAlertView()
+        
+        if application.applicationState == UIApplicationState.Inactive {
+            PFAnalytics.trackAppOpenedWithRemoteNotificationPayload(userInfo)
+            
+            pushAlert.delegate = self
+            
+            pushAlert.title = notification.objectForKey("alert") as! String
+            pushAlert.message = ""
+            pushAlert.addButtonWithTitle("OK")
+            
+            pushAlert.show()
+            
+            println("Recieved Notification")
+        }
+        else {
+            // Code for UIAlertView
+            
+            
+            pushAlert.delegate = self
+            
+            pushAlert.title = notification.objectForKey("alert") as! String
+            pushAlert.message = ""
+            pushAlert.addButtonWithTitle("OK")
+            
+            pushAlert.show()
+            
+            println("Recieved Notification")
+            
+        }
+
+        
     }
 
     func applicationWillResignActive(application: UIApplication) {
@@ -49,7 +137,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     lazy var applicationDocumentsDirectory: NSURL = {
         // The directory the application uses to store the Core Data store file. This code uses a directory named "dominicvitucci.Midwest_Automotive" in the application's documents Application Support directory.
         let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
-        return urls[urls.count-1] as NSURL
+        return urls[urls.count-1] as! NSURL
     }()
 
     lazy var managedObjectModel: NSManagedObjectModel = {

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6253EA41AEC2CE900AF1F05 /* Home-Screen_01.png in Resources */ = {isa = PBXBuildFile; fileRef = B6253E9E1AEC2CE900AF1F05 /* Home-Screen_01.png */; };
+		B6253EA51AEC2CE900AF1F05 /* Home-Screen_02.png in Resources */ = {isa = PBXBuildFile; fileRef = B6253E9F1AEC2CE900AF1F05 /* Home-Screen_02.png */; };
+		B6253EA61AEC2CE900AF1F05 /* Home-Screen_03.png in Resources */ = {isa = PBXBuildFile; fileRef = B6253EA01AEC2CE900AF1F05 /* Home-Screen_03.png */; };
+		B6253EA71AEC2CE900AF1F05 /* Home-Screen_04.png in Resources */ = {isa = PBXBuildFile; fileRef = B6253EA11AEC2CE900AF1F05 /* Home-Screen_04.png */; };
+		B6253EA81AEC2CE900AF1F05 /* Home-Screen_05.png in Resources */ = {isa = PBXBuildFile; fileRef = B6253EA21AEC2CE900AF1F05 /* Home-Screen_05.png */; };
+		B6253EA91AEC2CE900AF1F05 /* Home-Screen_06.png in Resources */ = {isa = PBXBuildFile; fileRef = B6253EA31AEC2CE900AF1F05 /* Home-Screen_06.png */; };
 		B648A7A01ADEB94E00772990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B648A79F1ADEB94E00772990 /* AppDelegate.swift */; };
 		B648A7A31ADEB94E00772990 /* Midwest_Automotive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B648A7A11ADEB94E00772990 /* Midwest_Automotive.xcdatamodeld */; };
 		B648A7A51ADEB94E00772990 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B648A7A41ADEB94E00772990 /* ViewController.swift */; };
@@ -14,6 +20,42 @@
 		B648A7AA1ADEB94E00772990 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B648A7A91ADEB94E00772990 /* Images.xcassets */; };
 		B648A7AD1ADEB94E00772990 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B648A7AB1ADEB94E00772990 /* LaunchScreen.xib */; };
 		B648A7B91ADEB94E00772990 /* Midwest_AutomotiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B648A7B81ADEB94E00772990 /* Midwest_AutomotiveTests.swift */; };
+		B648A7CB1ADEBA7100772990 /* 3-Button-Band-Layout_03.png in Resources */ = {isa = PBXBuildFile; fileRef = B648A7C21ADEBA7100772990 /* 3-Button-Band-Layout_03.png */; };
+		B648A7CC1ADEBA7100772990 /* 3-Button-Band-Layout_06.png in Resources */ = {isa = PBXBuildFile; fileRef = B648A7C31ADEBA7100772990 /* 3-Button-Band-Layout_06.png */; };
+		B648A7CD1ADEBA7100772990 /* 3-Button-Band-Layout_08.png in Resources */ = {isa = PBXBuildFile; fileRef = B648A7C41ADEBA7100772990 /* 3-Button-Band-Layout_08.png */; };
+		B648A7D91AE047CF00772990 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B648A7D81AE047CF00772990 /* WebViewController.swift */; };
+		B66070271AE096C800C0CE04 /* wrenchRepair.gif in Resources */ = {isa = PBXBuildFile; fileRef = B66070261AE096C800C0CE04 /* wrenchRepair.gif */; };
+		B66070291AE09CA500C0CE04 /* telephone.gif in Resources */ = {isa = PBXBuildFile; fileRef = B66070281AE09CA500C0CE04 /* telephone.gif */; };
+		B660702D1AE19F5800C0CE04 /* aboutUs-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = B660702C1AE19F5800C0CE04 /* aboutUs-2.gif */; };
+		B660702F1AE1A39F00C0CE04 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B660702E1AE1A39F00C0CE04 /* AboutViewController.swift */; };
+		B66070311AE1AB4400C0CE04 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66070301AE1AB4400C0CE04 /* MapKit.framework */; };
+		B6915C0A1AF2DF0E00E3402A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6915C091AF2DF0E00E3402A /* Images.xcassets */; };
+		B6915C0C1AF6B82300E3402A /* GlanceInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6915C0B1AF6B82300E3402A /* GlanceInterfaceController.swift */; };
+		B6D263AD1AEFD89300B7903D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D263A71AEFD89300B7903D /* Bolts.framework */; };
+		B6D263AE1AEFD89300B7903D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D263A81AEFD89300B7903D /* Parse.framework */; };
+		B6D263AF1AEFD89300B7903D /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D263A91AEFD89300B7903D /* ParseCrashReporting.framework */; };
+		B6D263B01AEFD89300B7903D /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D263AA1AEFD89300B7903D /* ParseFacebookUtils.framework */; };
+		B6D263B11AEFD89300B7903D /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D263AB1AEFD89300B7903D /* ParseFacebookUtilsV4.framework */; };
+		B6D263B21AEFD89300B7903D /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D263AC1AEFD89300B7903D /* ParseUI.framework */; };
+		B6D263B41AEFD8B500B7903D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D263B31AEFD8B500B7903D /* AudioToolbox.framework */; };
+		B6D263B61AEFD8BC00B7903D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D263B51AEFD8BC00B7903D /* CFNetwork.framework */; };
+		B6D263B81AEFD8C500B7903D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D263B71AEFD8C500B7903D /* CoreGraphics.framework */; };
+		B6D263BA1AEFD8CA00B7903D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D263B91AEFD8CA00B7903D /* CoreLocation.framework */; };
+		B6D263BC1AEFD8D200B7903D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D263BB1AEFD8D200B7903D /* MobileCoreServices.framework */; };
+		B6D263BE1AEFD8DA00B7903D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D263BD1AEFD8DA00B7903D /* QuartzCore.framework */; };
+		B6D263C01AEFD8DF00B7903D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D263BF1AEFD8DF00B7903D /* Security.framework */; };
+		B6D263C21AEFD8E800B7903D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D263C11AEFD8E800B7903D /* StoreKit.framework */; };
+		B6D263C41AEFD8EE00B7903D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D263C31AEFD8EE00B7903D /* SystemConfiguration.framework */; };
+		B6D263C61AEFD8FD00B7903D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D263C51AEFD8FD00B7903D /* libz.dylib */; };
+		B6D263C81AEFD90A00B7903D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D263C71AEFD90A00B7903D /* libsqlite3.dylib */; };
+		B6D263D21AF2AADD00B7903D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D263D11AF2AADD00B7903D /* InterfaceController.swift */; };
+		B6D263D41AF2AADD00B7903D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D263D31AF2AADD00B7903D /* Images.xcassets */; };
+		B6D263D81AF2AADD00B7903D /* Midwest Automotive WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = B6D263D71AF2AADD00B7903D /* Midwest Automotive WatchKit App.app */; };
+		B6D263E01AF2AADD00B7903D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D263DE1AF2AADD00B7903D /* Interface.storyboard */; };
+		B6D263E51AF2AADD00B7903D /* Midwest Automotive WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B6D263CD1AF2AADC00B7903D /* Midwest Automotive WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B6D263EE1AF2ADB800B7903D /* 196x196.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D263ED1AF2ADB800B7903D /* 196x196.png */; };
+		B6D263EF1AF2ADD600B7903D /* 196x196.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D263ED1AF2ADB800B7903D /* 196x196.png */; };
+		B6D263F11AF2B2A700B7903D /* MapInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D263F01AF2B2A700B7903D /* MapInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,9 +66,43 @@
 			remoteGlobalIDString = B648A7991ADEB94E00772990;
 			remoteInfo = "Midwest Automotive";
 		};
+		B6D263D91AF2AADD00B7903D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B648A7921ADEB94E00772990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6D263D61AF2AADD00B7903D;
+			remoteInfo = "Midwest Automotive WatchKit App";
+		};
+		B6D263E31AF2AADD00B7903D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B648A7921ADEB94E00772990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6D263CC1AF2AADC00B7903D;
+			remoteInfo = "Midwest Automotive WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B6D263EC1AF2AADD00B7903D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B6D263E51AF2AADD00B7903D /* Midwest Automotive WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B6253E9E1AEC2CE900AF1F05 /* Home-Screen_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-Screen_01.png"; sourceTree = "<group>"; };
+		B6253E9F1AEC2CE900AF1F05 /* Home-Screen_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-Screen_02.png"; sourceTree = "<group>"; };
+		B6253EA01AEC2CE900AF1F05 /* Home-Screen_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-Screen_03.png"; sourceTree = "<group>"; };
+		B6253EA11AEC2CE900AF1F05 /* Home-Screen_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-Screen_04.png"; sourceTree = "<group>"; };
+		B6253EA21AEC2CE900AF1F05 /* Home-Screen_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-Screen_05.png"; sourceTree = "<group>"; };
+		B6253EA31AEC2CE900AF1F05 /* Home-Screen_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-Screen_06.png"; sourceTree = "<group>"; };
 		B648A79A1ADEB94E00772990 /* Midwest Automotive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midwest Automotive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B648A79E1ADEB94E00772990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B648A79F1ADEB94E00772990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +114,45 @@
 		B648A7B21ADEB94E00772990 /* Midwest AutomotiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Midwest AutomotiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B648A7B71ADEB94E00772990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B648A7B81ADEB94E00772990 /* Midwest_AutomotiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Midwest_AutomotiveTests.swift; sourceTree = "<group>"; };
+		B648A7C21ADEBA7100772990 /* 3-Button-Band-Layout_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-Button-Band-Layout_03.png"; sourceTree = "<group>"; };
+		B648A7C31ADEBA7100772990 /* 3-Button-Band-Layout_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-Button-Band-Layout_06.png"; sourceTree = "<group>"; };
+		B648A7C41ADEBA7100772990 /* 3-Button-Band-Layout_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-Button-Band-Layout_08.png"; sourceTree = "<group>"; };
+		B648A7D81AE047CF00772990 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		B66070261AE096C800C0CE04 /* wrenchRepair.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wrenchRepair.gif; sourceTree = "<group>"; };
+		B66070281AE09CA500C0CE04 /* telephone.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = telephone.gif; sourceTree = "<group>"; };
+		B660702C1AE19F5800C0CE04 /* aboutUs-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "aboutUs-2.gif"; sourceTree = "<group>"; };
+		B660702E1AE1A39F00C0CE04 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		B66070301AE1AB4400C0CE04 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B6915C071AF2DEEF00E3402A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6915C091AF2DF0E00E3402A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6915C0B1AF6B82300E3402A /* GlanceInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlanceInterfaceController.swift; sourceTree = "<group>"; };
+		B6D263A71AEFD89300B7903D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "parse-library-1-8/Bolts.framework"; sourceTree = "<group>"; };
+		B6D263A81AEFD89300B7903D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "parse-library-1-8/Parse.framework"; sourceTree = "<group>"; };
+		B6D263A91AEFD89300B7903D /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = "parse-library-1-8/ParseCrashReporting.framework"; sourceTree = "<group>"; };
+		B6D263AA1AEFD89300B7903D /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "parse-library-1-8/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
+		B6D263AB1AEFD89300B7903D /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = "parse-library-1-8/ParseFacebookUtilsV4.framework"; sourceTree = "<group>"; };
+		B6D263AC1AEFD89300B7903D /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "parse-library-1-8/ParseUI.framework"; sourceTree = "<group>"; };
+		B6D263B31AEFD8B500B7903D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B6D263B51AEFD8BC00B7903D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B6D263B71AEFD8C500B7903D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6D263B91AEFD8CA00B7903D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B6D263BB1AEFD8D200B7903D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B6D263BD1AEFD8DA00B7903D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B6D263BF1AEFD8DF00B7903D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B6D263C11AEFD8E800B7903D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B6D263C31AEFD8EE00B7903D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B6D263C51AEFD8FD00B7903D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B6D263C71AEFD90A00B7903D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B6D263CD1AF2AADC00B7903D /* Midwest Automotive WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Midwest Automotive WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D263D01AF2AADD00B7903D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D263D11AF2AADD00B7903D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B6D263D31AF2AADD00B7903D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6D263D71AF2AADD00B7903D /* Midwest Automotive WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midwest Automotive WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D263DD1AF2AADD00B7903D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D263DF1AF2AADD00B7903D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B6D263ED1AF2ADB800B7903D /* 196x196.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 196x196.png; sourceTree = "<group>"; };
+		B6D263F01AF2B2A700B7903D /* MapInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapInterfaceController.swift; path = "../Midwest Automotive WatchKit App/MapInterfaceController.swift"; sourceTree = "<group>"; };
+		B6D263F21AF2BA8D00B7903D /* Midwest Automotive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Midwest Automotive.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,10 +160,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D263C81AEFD90A00B7903D /* libsqlite3.dylib in Frameworks */,
+				B6D263C61AEFD8FD00B7903D /* libz.dylib in Frameworks */,
+				B6D263C41AEFD8EE00B7903D /* SystemConfiguration.framework in Frameworks */,
+				B6D263C21AEFD8E800B7903D /* StoreKit.framework in Frameworks */,
+				B6D263C01AEFD8DF00B7903D /* Security.framework in Frameworks */,
+				B6D263BE1AEFD8DA00B7903D /* QuartzCore.framework in Frameworks */,
+				B6D263BC1AEFD8D200B7903D /* MobileCoreServices.framework in Frameworks */,
+				B6D263BA1AEFD8CA00B7903D /* CoreLocation.framework in Frameworks */,
+				B6D263B81AEFD8C500B7903D /* CoreGraphics.framework in Frameworks */,
+				B6D263B61AEFD8BC00B7903D /* CFNetwork.framework in Frameworks */,
+				B6D263B41AEFD8B500B7903D /* AudioToolbox.framework in Frameworks */,
+				B66070311AE1AB4400C0CE04 /* MapKit.framework in Frameworks */,
+				B6D263AE1AEFD89300B7903D /* Parse.framework in Frameworks */,
+				B6D263B21AEFD89300B7903D /* ParseUI.framework in Frameworks */,
+				B6D263B11AEFD89300B7903D /* ParseFacebookUtilsV4.framework in Frameworks */,
+				B6D263AD1AEFD89300B7903D /* Bolts.framework in Frameworks */,
+				B6D263B01AEFD89300B7903D /* ParseFacebookUtils.framework in Frameworks */,
+				B6D263AF1AEFD89300B7903D /* ParseCrashReporting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B648A7AF1ADEB94E00772990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D263CA1AF2AADC00B7903D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,7 +201,10 @@
 		B648A7911ADEB94E00772990 = {
 			isa = PBXGroup;
 			children = (
+				B66070321AE1AB4900C0CE04 /* Frameworks */,
 				B648A79C1ADEB94E00772990 /* Midwest Automotive */,
+				B6D263CE1AF2AADD00B7903D /* Midwest Automotive WatchKit Extension */,
+				B6D263DB1AF2AADD00B7903D /* Midwest Automotive WatchKit App */,
 				B648A7B51ADEB94E00772990 /* Midwest AutomotiveTests */,
 				B648A79B1ADEB94E00772990 /* Products */,
 			);
@@ -72,6 +215,8 @@
 			children = (
 				B648A79A1ADEB94E00772990 /* Midwest Automotive.app */,
 				B648A7B21ADEB94E00772990 /* Midwest AutomotiveTests.xctest */,
+				B6D263CD1AF2AADC00B7903D /* Midwest Automotive WatchKit Extension.appex */,
+				B6D263D71AF2AADD00B7903D /* Midwest Automotive WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,8 +224,11 @@
 		B648A79C1ADEB94E00772990 /* Midwest Automotive */ = {
 			isa = PBXGroup;
 			children = (
+				B6D263F21AF2BA8D00B7903D /* Midwest Automotive.entitlements */,
 				B648A79F1ADEB94E00772990 /* AppDelegate.swift */,
 				B648A7A41ADEB94E00772990 /* ViewController.swift */,
+				B648A7D81AE047CF00772990 /* WebViewController.swift */,
+				B660702E1AE1A39F00C0CE04 /* AboutViewController.swift */,
 				B648A7A61ADEB94E00772990 /* Main.storyboard */,
 				B648A7A91ADEB94E00772990 /* Images.xcassets */,
 				B648A7AB1ADEB94E00772990 /* LaunchScreen.xib */,
@@ -93,6 +241,18 @@
 		B648A79D1ADEB94E00772990 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B660702C1AE19F5800C0CE04 /* aboutUs-2.gif */,
+				B66070261AE096C800C0CE04 /* wrenchRepair.gif */,
+				B66070281AE09CA500C0CE04 /* telephone.gif */,
+				B648A7C21ADEBA7100772990 /* 3-Button-Band-Layout_03.png */,
+				B648A7C31ADEBA7100772990 /* 3-Button-Band-Layout_06.png */,
+				B648A7C41ADEBA7100772990 /* 3-Button-Band-Layout_08.png */,
+				B6253E9E1AEC2CE900AF1F05 /* Home-Screen_01.png */,
+				B6253E9F1AEC2CE900AF1F05 /* Home-Screen_02.png */,
+				B6253EA01AEC2CE900AF1F05 /* Home-Screen_03.png */,
+				B6253EA11AEC2CE900AF1F05 /* Home-Screen_04.png */,
+				B6253EA21AEC2CE900AF1F05 /* Home-Screen_05.png */,
+				B6253EA31AEC2CE900AF1F05 /* Home-Screen_06.png */,
 				B648A79E1ADEB94E00772990 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -115,6 +275,71 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B66070321AE1AB4900C0CE04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6D263C71AEFD90A00B7903D /* libsqlite3.dylib */,
+				B6D263C51AEFD8FD00B7903D /* libz.dylib */,
+				B6D263C31AEFD8EE00B7903D /* SystemConfiguration.framework */,
+				B6D263C11AEFD8E800B7903D /* StoreKit.framework */,
+				B6D263BF1AEFD8DF00B7903D /* Security.framework */,
+				B6D263BD1AEFD8DA00B7903D /* QuartzCore.framework */,
+				B6D263BB1AEFD8D200B7903D /* MobileCoreServices.framework */,
+				B6D263B91AEFD8CA00B7903D /* CoreLocation.framework */,
+				B6D263B71AEFD8C500B7903D /* CoreGraphics.framework */,
+				B6D263B51AEFD8BC00B7903D /* CFNetwork.framework */,
+				B6D263B31AEFD8B500B7903D /* AudioToolbox.framework */,
+				B6D263A71AEFD89300B7903D /* Bolts.framework */,
+				B6D263A81AEFD89300B7903D /* Parse.framework */,
+				B6D263A91AEFD89300B7903D /* ParseCrashReporting.framework */,
+				B6D263AA1AEFD89300B7903D /* ParseFacebookUtils.framework */,
+				B6D263AB1AEFD89300B7903D /* ParseFacebookUtilsV4.framework */,
+				B6D263AC1AEFD89300B7903D /* ParseUI.framework */,
+				B66070301AE1AB4400C0CE04 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6D263CE1AF2AADD00B7903D /* Midwest Automotive WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B6D263D11AF2AADD00B7903D /* InterfaceController.swift */,
+				B6D263F01AF2B2A700B7903D /* MapInterfaceController.swift */,
+				B6915C0B1AF6B82300E3402A /* GlanceInterfaceController.swift */,
+				B6D263D31AF2AADD00B7903D /* Images.xcassets */,
+				B6D263CF1AF2AADD00B7903D /* Supporting Files */,
+			);
+			path = "Midwest Automotive WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B6D263CF1AF2AADD00B7903D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6D263D01AF2AADD00B7903D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6D263DB1AF2AADD00B7903D /* Midwest Automotive WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B6D263DE1AF2AADD00B7903D /* Interface.storyboard */,
+				B6915C071AF2DEEF00E3402A /* Images.xcassets */,
+				B6915C091AF2DF0E00E3402A /* Images.xcassets */,
+				B6D263DC1AF2AADD00B7903D /* Supporting Files */,
+			);
+			path = "Midwest Automotive WatchKit App";
+			sourceTree = "<group>";
+		};
+		B6D263DC1AF2AADD00B7903D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6D263ED1AF2ADB800B7903D /* 196x196.png */,
+				B6D263DD1AF2AADD00B7903D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,10 +350,12 @@
 				B648A7961ADEB94E00772990 /* Sources */,
 				B648A7971ADEB94E00772990 /* Frameworks */,
 				B648A7981ADEB94E00772990 /* Resources */,
+				B6D263EC1AF2AADD00B7903D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B6D263E41AF2AADD00B7903D /* PBXTargetDependency */,
 			);
 			name = "Midwest Automotive";
 			productName = "Midwest Automotive";
@@ -153,21 +380,68 @@
 			productReference = B648A7B21ADEB94E00772990 /* Midwest AutomotiveTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B6D263CC1AF2AADC00B7903D /* Midwest Automotive WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D263E91AF2AADD00B7903D /* Build configuration list for PBXNativeTarget "Midwest Automotive WatchKit Extension" */;
+			buildPhases = (
+				B6D263C91AF2AADC00B7903D /* Sources */,
+				B6D263CA1AF2AADC00B7903D /* Frameworks */,
+				B6D263CB1AF2AADC00B7903D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6D263DA1AF2AADD00B7903D /* PBXTargetDependency */,
+			);
+			name = "Midwest Automotive WatchKit Extension";
+			productName = "Midwest Automotive WatchKit Extension";
+			productReference = B6D263CD1AF2AADC00B7903D /* Midwest Automotive WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		B6D263D61AF2AADD00B7903D /* Midwest Automotive WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D263E61AF2AADD00B7903D /* Build configuration list for PBXNativeTarget "Midwest Automotive WatchKit App" */;
+			buildPhases = (
+				B6D263D51AF2AADD00B7903D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Midwest Automotive WatchKit App";
+			productName = "Midwest Automotive WatchKit App";
+			productReference = B6D263D71AF2AADD00B7903D /* Midwest Automotive WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B648A7921ADEB94E00772990 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Dominic Vitucci";
 				TargetAttributes = {
 					B648A7991ADEB94E00772990 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 47Q8HR9LV3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					B648A7B11ADEB94E00772990 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = B648A7991ADEB94E00772990;
+					};
+					B6D263CC1AF2AADC00B7903D = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 47Q8HR9LV3;
+					};
+					B6D263D61AF2AADD00B7903D = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 47Q8HR9LV3;
 					};
 				};
 			};
@@ -186,6 +460,8 @@
 			targets = (
 				B648A7991ADEB94E00772990 /* Midwest Automotive */,
 				B648A7B11ADEB94E00772990 /* Midwest AutomotiveTests */,
+				B6D263CC1AF2AADC00B7903D /* Midwest Automotive WatchKit Extension */,
+				B6D263D61AF2AADD00B7903D /* Midwest Automotive WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -196,7 +472,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				B648A7A81ADEB94E00772990 /* Main.storyboard in Resources */,
+				B6253EA41AEC2CE900AF1F05 /* Home-Screen_01.png in Resources */,
+				B648A7CC1ADEBA7100772990 /* 3-Button-Band-Layout_06.png in Resources */,
+				B66070291AE09CA500C0CE04 /* telephone.gif in Resources */,
+				B6253EA51AEC2CE900AF1F05 /* Home-Screen_02.png in Resources */,
+				B6253EA81AEC2CE900AF1F05 /* Home-Screen_05.png in Resources */,
+				B6253EA61AEC2CE900AF1F05 /* Home-Screen_03.png in Resources */,
+				B6253EA71AEC2CE900AF1F05 /* Home-Screen_04.png in Resources */,
+				B648A7CD1ADEBA7100772990 /* 3-Button-Band-Layout_08.png in Resources */,
+				B66070271AE096C800C0CE04 /* wrenchRepair.gif in Resources */,
+				B648A7CB1ADEBA7100772990 /* 3-Button-Band-Layout_03.png in Resources */,
+				B6253EA91AEC2CE900AF1F05 /* Home-Screen_06.png in Resources */,
 				B648A7AD1ADEB94E00772990 /* LaunchScreen.xib in Resources */,
+				B660702D1AE19F5800C0CE04 /* aboutUs-2.gif in Resources */,
 				B648A7AA1ADEB94E00772990 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +496,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B6D263CB1AF2AADC00B7903D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D263D81AF2AADD00B7903D /* Midwest Automotive WatchKit App.app in Resources */,
+				B6D263D41AF2AADD00B7903D /* Images.xcassets in Resources */,
+				B6D263EF1AF2ADD600B7903D /* 196x196.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D263D51AF2AADD00B7903D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D263E01AF2AADD00B7903D /* Interface.storyboard in Resources */,
+				B6915C0A1AF2DF0E00E3402A /* Images.xcassets in Resources */,
+				B6D263EE1AF2ADB800B7903D /* 196x196.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -215,8 +523,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B660702F1AE1A39F00C0CE04 /* AboutViewController.swift in Sources */,
 				B648A7A51ADEB94E00772990 /* ViewController.swift in Sources */,
 				B648A7A31ADEB94E00772990 /* Midwest_Automotive.xcdatamodeld in Sources */,
+				B648A7D91AE047CF00772990 /* WebViewController.swift in Sources */,
 				B648A7A01ADEB94E00772990 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +539,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B6D263C91AF2AADC00B7903D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D263F11AF2B2A700B7903D /* MapInterfaceController.swift in Sources */,
+				B6D263D21AF2AADD00B7903D /* InterfaceController.swift in Sources */,
+				B6915C0C1AF6B82300E3402A /* GlanceInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +556,16 @@
 			isa = PBXTargetDependency;
 			target = B648A7991ADEB94E00772990 /* Midwest Automotive */;
 			targetProxy = B648A7B31ADEB94E00772990 /* PBXContainerItemProxy */;
+		};
+		B6D263DA1AF2AADD00B7903D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6D263D61AF2AADD00B7903D /* Midwest Automotive WatchKit App */;
+			targetProxy = B6D263D91AF2AADD00B7903D /* PBXContainerItemProxy */;
+		};
+		B6D263E41AF2AADD00B7903D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6D263CC1AF2AADC00B7903D /* Midwest Automotive WatchKit Extension */;
+			targetProxy = B6D263E31AF2AADD00B7903D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -254,6 +584,14 @@
 				B648A7AC1ADEB94E00772990 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B6D263DE1AF2AADD00B7903D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6D263DF1AF2AADD00B7903D /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -342,9 +680,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Midwest Automotive/Midwest Automotive.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1-8",
+				);
 				INFOPLIST_FILE = "Midwest Automotive/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -352,9 +701,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Midwest Automotive/Midwest Automotive.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1-8",
+				);
 				INFOPLIST_FILE = "Midwest Automotive/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -392,6 +752,66 @@
 			};
 			name = Release;
 		};
+		B6D263E71AF2AADD00B7903D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = WatchAppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Midwest_Automotive_WatchKit_Extension;
+				INFOPLIST_FILE = "Midwest Automotive WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		B6D263E81AF2AADD00B7903D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = WatchAppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = Midwest_Automotive_WatchKit_Extension;
+				INFOPLIST_FILE = "Midwest Automotive WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		B6D263EA1AF2AADD00B7903D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Midwest Automotive WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B6D263EB1AF2AADD00B7903D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Midwest Automotive WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +831,7 @@
 				B648A7BE1ADEB94E00772990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B648A7BF1ADEB94E00772990 /* Build configuration list for PBXNativeTarget "Midwest AutomotiveTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +840,25 @@
 				B648A7C11ADEB94E00772990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D263E61AF2AADD00B7903D /* Build configuration list for PBXNativeTarget "Midwest Automotive WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D263E71AF2AADD00B7903D /* Debug */,
+				B6D263E81AF2AADD00B7903D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D263E91AF2AADD00B7903D /* Build configuration list for PBXNativeTarget "Midwest Automotive WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D263EA1AF2AADD00B7903D /* Debug */,
+				B6D263EB1AF2AADD00B7903D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
