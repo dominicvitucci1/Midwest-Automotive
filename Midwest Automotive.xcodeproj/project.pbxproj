@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B612D6E81B18A73300E8E3A1 /* 3-Button-Band-Layout_03.png in Resources */ = {isa = PBXBuildFile; fileRef = B612D6E61B18A73300E8E3A1 /* 3-Button-Band-Layout_03.png */; };
+		B612D6E91B18A73300E8E3A1 /* 3-Button-Band-Layout_06.png in Resources */ = {isa = PBXBuildFile; fileRef = B612D6E71B18A73300E8E3A1 /* 3-Button-Band-Layout_06.png */; };
+		B612D6EB1B18A83300E8E3A1 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B612D6EA1B18A83300E8E3A1 /* ContactViewController.swift */; };
 		B6253EA41AEC2CE900AF1F05 /* Home-Screen_01.png in Resources */ = {isa = PBXBuildFile; fileRef = B6253E9E1AEC2CE900AF1F05 /* Home-Screen_01.png */; };
 		B6253EA51AEC2CE900AF1F05 /* Home-Screen_02.png in Resources */ = {isa = PBXBuildFile; fileRef = B6253E9F1AEC2CE900AF1F05 /* Home-Screen_02.png */; };
 		B6253EA61AEC2CE900AF1F05 /* Home-Screen_03.png in Resources */ = {isa = PBXBuildFile; fileRef = B6253EA01AEC2CE900AF1F05 /* Home-Screen_03.png */; };
@@ -20,9 +23,6 @@
 		B648A7AA1ADEB94E00772990 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B648A7A91ADEB94E00772990 /* Images.xcassets */; };
 		B648A7AD1ADEB94E00772990 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B648A7AB1ADEB94E00772990 /* LaunchScreen.xib */; };
 		B648A7B91ADEB94E00772990 /* Midwest_AutomotiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B648A7B81ADEB94E00772990 /* Midwest_AutomotiveTests.swift */; };
-		B648A7CB1ADEBA7100772990 /* 3-Button-Band-Layout_03.png in Resources */ = {isa = PBXBuildFile; fileRef = B648A7C21ADEBA7100772990 /* 3-Button-Band-Layout_03.png */; };
-		B648A7CC1ADEBA7100772990 /* 3-Button-Band-Layout_06.png in Resources */ = {isa = PBXBuildFile; fileRef = B648A7C31ADEBA7100772990 /* 3-Button-Band-Layout_06.png */; };
-		B648A7CD1ADEBA7100772990 /* 3-Button-Band-Layout_08.png in Resources */ = {isa = PBXBuildFile; fileRef = B648A7C41ADEBA7100772990 /* 3-Button-Band-Layout_08.png */; };
 		B648A7D91AE047CF00772990 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B648A7D81AE047CF00772990 /* WebViewController.swift */; };
 		B66070271AE096C800C0CE04 /* wrenchRepair.gif in Resources */ = {isa = PBXBuildFile; fileRef = B66070261AE096C800C0CE04 /* wrenchRepair.gif */; };
 		B66070291AE09CA500C0CE04 /* telephone.gif in Resources */ = {isa = PBXBuildFile; fileRef = B66070281AE09CA500C0CE04 /* telephone.gif */; };
@@ -97,6 +97,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B612D6E61B18A73300E8E3A1 /* 3-Button-Band-Layout_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-Button-Band-Layout_03.png"; sourceTree = "<group>"; };
+		B612D6E71B18A73300E8E3A1 /* 3-Button-Band-Layout_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-Button-Band-Layout_06.png"; sourceTree = "<group>"; };
+		B612D6EA1B18A83300E8E3A1 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		B6253E9E1AEC2CE900AF1F05 /* Home-Screen_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-Screen_01.png"; sourceTree = "<group>"; };
 		B6253E9F1AEC2CE900AF1F05 /* Home-Screen_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-Screen_02.png"; sourceTree = "<group>"; };
 		B6253EA01AEC2CE900AF1F05 /* Home-Screen_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-Screen_03.png"; sourceTree = "<group>"; };
@@ -114,9 +117,6 @@
 		B648A7B21ADEB94E00772990 /* Midwest AutomotiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Midwest AutomotiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B648A7B71ADEB94E00772990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B648A7B81ADEB94E00772990 /* Midwest_AutomotiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Midwest_AutomotiveTests.swift; sourceTree = "<group>"; };
-		B648A7C21ADEBA7100772990 /* 3-Button-Band-Layout_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-Button-Band-Layout_03.png"; sourceTree = "<group>"; };
-		B648A7C31ADEBA7100772990 /* 3-Button-Band-Layout_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-Button-Band-Layout_06.png"; sourceTree = "<group>"; };
-		B648A7C41ADEBA7100772990 /* 3-Button-Band-Layout_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-Button-Band-Layout_08.png"; sourceTree = "<group>"; };
 		B648A7D81AE047CF00772990 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		B66070261AE096C800C0CE04 /* wrenchRepair.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wrenchRepair.gif; sourceTree = "<group>"; };
 		B66070281AE09CA500C0CE04 /* telephone.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = telephone.gif; sourceTree = "<group>"; };
@@ -229,6 +229,7 @@
 				B648A7A41ADEB94E00772990 /* ViewController.swift */,
 				B648A7D81AE047CF00772990 /* WebViewController.swift */,
 				B660702E1AE1A39F00C0CE04 /* AboutViewController.swift */,
+				B612D6EA1B18A83300E8E3A1 /* ContactViewController.swift */,
 				B648A7A61ADEB94E00772990 /* Main.storyboard */,
 				B648A7A91ADEB94E00772990 /* Images.xcassets */,
 				B648A7AB1ADEB94E00772990 /* LaunchScreen.xib */,
@@ -244,9 +245,8 @@
 				B660702C1AE19F5800C0CE04 /* aboutUs-2.gif */,
 				B66070261AE096C800C0CE04 /* wrenchRepair.gif */,
 				B66070281AE09CA500C0CE04 /* telephone.gif */,
-				B648A7C21ADEBA7100772990 /* 3-Button-Band-Layout_03.png */,
-				B648A7C31ADEBA7100772990 /* 3-Button-Band-Layout_06.png */,
-				B648A7C41ADEBA7100772990 /* 3-Button-Band-Layout_08.png */,
+				B612D6E61B18A73300E8E3A1 /* 3-Button-Band-Layout_03.png */,
+				B612D6E71B18A73300E8E3A1 /* 3-Button-Band-Layout_06.png */,
 				B6253E9E1AEC2CE900AF1F05 /* Home-Screen_01.png */,
 				B6253E9F1AEC2CE900AF1F05 /* Home-Screen_02.png */,
 				B6253EA01AEC2CE900AF1F05 /* Home-Screen_03.png */,
@@ -473,19 +473,18 @@
 			files = (
 				B648A7A81ADEB94E00772990 /* Main.storyboard in Resources */,
 				B6253EA41AEC2CE900AF1F05 /* Home-Screen_01.png in Resources */,
-				B648A7CC1ADEBA7100772990 /* 3-Button-Band-Layout_06.png in Resources */,
+				B612D6E91B18A73300E8E3A1 /* 3-Button-Band-Layout_06.png in Resources */,
 				B66070291AE09CA500C0CE04 /* telephone.gif in Resources */,
 				B6253EA51AEC2CE900AF1F05 /* Home-Screen_02.png in Resources */,
 				B6253EA81AEC2CE900AF1F05 /* Home-Screen_05.png in Resources */,
 				B6253EA61AEC2CE900AF1F05 /* Home-Screen_03.png in Resources */,
 				B6253EA71AEC2CE900AF1F05 /* Home-Screen_04.png in Resources */,
-				B648A7CD1ADEBA7100772990 /* 3-Button-Band-Layout_08.png in Resources */,
 				B66070271AE096C800C0CE04 /* wrenchRepair.gif in Resources */,
-				B648A7CB1ADEBA7100772990 /* 3-Button-Band-Layout_03.png in Resources */,
 				B6253EA91AEC2CE900AF1F05 /* Home-Screen_06.png in Resources */,
 				B648A7AD1ADEB94E00772990 /* LaunchScreen.xib in Resources */,
 				B660702D1AE19F5800C0CE04 /* aboutUs-2.gif in Resources */,
 				B648A7AA1ADEB94E00772990 /* Images.xcassets in Resources */,
+				B612D6E81B18A73300E8E3A1 /* 3-Button-Band-Layout_03.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +527,7 @@
 				B648A7A31ADEB94E00772990 /* Midwest_Automotive.xcdatamodeld in Sources */,
 				B648A7D91AE047CF00772990 /* WebViewController.swift in Sources */,
 				B648A7A01ADEB94E00772990 /* AppDelegate.swift in Sources */,
+				B612D6EB1B18A83300E8E3A1 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

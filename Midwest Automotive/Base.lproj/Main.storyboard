@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="WAG-tM-B8C">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="WAG-tM-B8C">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -24,7 +24,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="callShop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ft4-j1-3QK"/>
+                                    <segue destination="TVP-Z2-xeO" kind="show" id="Kye-xZ-qkK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0F-Un-etp">
@@ -115,6 +115,55 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1019" y="-368"/>
+        </scene>
+        <!--Contact View Controller-->
+        <scene sceneID="lp3-zl-iIp">
+            <objects>
+                <viewController id="TVP-Z2-xeO" customClass="ContactViewController" customModule="Midwest_Automotive" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oK6-4b-7N2"/>
+                        <viewControllerLayoutGuide type="bottom" id="8MJ-O0-vKG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hTL-ws-ZTF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wn2-mA-nvF">
+                                <rect key="frame" x="0.0" y="150" width="600" height="125"/>
+                                <state key="normal" backgroundImage="3-Button-Band-Layout_03.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="callShop:" destination="TVP-Z2-xeO" eventType="touchUpInside" id="mqR-B5-4Ug"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2y-iM-LeM">
+                                <rect key="frame" x="0.0" y="275" width="600" height="125"/>
+                                <state key="normal" backgroundImage="3-Button-Band-Layout_06.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="emailUs:" destination="TVP-Z2-xeO" eventType="touchUpInside" id="Yll-ZT-dhU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="p2y-iM-LeM" firstAttribute="width" secondItem="wn2-mA-nvF" secondAttribute="width" id="0UJ-O4-Non"/>
+                            <constraint firstItem="p2y-iM-LeM" firstAttribute="leading" secondItem="hTL-ws-ZTF" secondAttribute="leading" id="2Le-wd-6b7"/>
+                            <constraint firstItem="p2y-iM-LeM" firstAttribute="trailing" secondItem="wn2-mA-nvF" secondAttribute="trailing" id="8JN-NM-Fwt"/>
+                            <constraint firstItem="p2y-iM-LeM" firstAttribute="height" secondItem="wn2-mA-nvF" secondAttribute="height" id="8O2-VM-TpB"/>
+                            <constraint firstItem="8MJ-O0-vKG" firstAttribute="top" secondItem="p2y-iM-LeM" secondAttribute="bottom" constant="136" id="B1b-yR-vwb"/>
+                            <constraint firstItem="p2y-iM-LeM" firstAttribute="top" secondItem="wn2-mA-nvF" secondAttribute="bottom" id="M86-JD-tl8"/>
+                            <constraint firstItem="p2y-iM-LeM" firstAttribute="leading" secondItem="wn2-mA-nvF" secondAttribute="leading" id="Nob-H2-btu"/>
+                            <constraint firstAttribute="trailing" secondItem="wn2-mA-nvF" secondAttribute="trailing" id="j4m-3V-BQl"/>
+                            <constraint firstItem="wn2-mA-nvF" firstAttribute="top" relation="greaterThanOrEqual" secondItem="oK6-4b-7N2" secondAttribute="bottom" constant="150" id="lf4-tH-wxn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NKP-jn-HJ8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1686" y="-368"/>
         </scene>
         <!--About View Controller-->
         <scene sceneID="VwE-uM-7Bp">
@@ -338,6 +387,8 @@ alignments</string>
         </scene>
     </scenes>
     <resources>
+        <image name="3-Button-Band-Layout_03.png" width="1199" height="300"/>
+        <image name="3-Button-Band-Layout_06.png" width="1199" height="300"/>
         <image name="Home-Screen_01.png" width="600" height="600"/>
         <image name="Home-Screen_02.png" width="600" height="600"/>
         <image name="Home-Screen_03.png" width="600" height="600"/>

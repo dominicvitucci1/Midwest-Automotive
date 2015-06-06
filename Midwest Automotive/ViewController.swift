@@ -92,49 +92,6 @@ class ViewController: UIViewController {
         UIApplication.sharedApplication().openURL(url);
     }
     
-    
-    @IBAction func callShop(sender: UIButton)
-    {
-        // Code for UIAlertView (ios7)
-        
-        var callUsAlert: UIAlertView = UIAlertView()
-        
-        callUsAlert.delegate = self
-        
-        callUsAlert.title = "Would you like to call our shop?"
-        callUsAlert.message = ""
-        callUsAlert.addButtonWithTitle("Cancel")
-        callUsAlert.addButtonWithTitle("Call")
-        
-        callUsAlert.show()
-        
-    }
-    
-    // Code for UIAlertView (iOS 7)
-    func callAlertView(View: UIAlertView!, clickedButtonAtIndex buttonIndex: Int) {
-        
-        switch buttonIndex {
-            
-        case 1:
-            self.phoneCall()
-            NSLog("calling")
-            
-        default:
-            println("alertView \(buttonIndex) clicked")
-            
-            
-        }
-        
-        
-    }
-    
-    func shopPhoneCall()
-    {
-        let phone = "tel://8478278400";
-        let url:NSURL = NSURL(string:phone)!;
-        UIApplication.sharedApplication().openURL(url);
-    }
-
 
 
 
